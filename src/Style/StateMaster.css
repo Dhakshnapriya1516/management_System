@@ -1,0 +1,108 @@
+/* State Master Page */
+
+.state-page {
+  min-height: 100vh;
+  padding: 25px;
+  background: #ecfdf5;
+  font-family: "Roboto", sans-serif;
+}
+
+.state-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.state-title {
+  color: #065f46;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.state-subtitle {
+  color: #64748b;
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+.state-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  border: 1px solid #a7f3d0;
+  box-shadow: 0 4px 15px rgba(5, 150, 105, 0.06);
+}
+
+.state-add-btn {
+  background: #059669 !important;
+  color: white !important;
+  text-transform: none !important;
+  border-radius: 8px !important;
+  padding: 10px 20px !important;
+  font-weight: 600 !important;
+}
+
+.state-add-btn:hover {
+  background: #047857 !important;
+}
+
+.state-search {
+  width: 300px;
+  margin-bottom: 20px !important;
+}
+
+.state-search .MuiOutlinedInput-root {
+  border-radius: 8px;
+  background: #f0fdf4;
+}
+
+.state-table .MuiTableHead-root {
+  background: #d1fae5;
+}
+
+.state-table .MuiTableCell-head {
+  color: #047857;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.state-table .MuiTableCell-body {
+  color: #334155;
+  font-size: 13px;
+  padding: 15px;
+}
+
+.state-table .MuiTableRow-root:hover {
+  background: #ecfdf5;
+}
+
+.state-dialog .MuiDialog-paper {
+  border-radius: 14px;
+  padding: 8px;
+}
+
+.state-dialog .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .state-page {
+    padding: 12px;
+  }
+
+  .state-title {
+    font-size: 22px;
+  }
+
+  .state-search {
+    width: 100%;
+  }
+
+  .state-card {
+    padding: 15px;
+  }
+}

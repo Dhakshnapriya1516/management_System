@@ -1,0 +1,108 @@
+/* Town Master Page */
+
+.town-page {
+  min-height: 100vh;
+  padding: 25px;
+  background: #f0fdfa;
+  font-family: "Roboto", sans-serif;
+}
+
+.town-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.town-title {
+  color: #115e59;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.town-subtitle {
+  color: #64748b;
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+.town-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  border: 1px solid #99f6e4;
+  box-shadow: 0 4px 15px rgba(13, 148, 136, 0.06);
+}
+
+.town-add-btn {
+  background: #0d9488 !important;
+  color: white !important;
+  text-transform: none !important;
+  border-radius: 8px !important;
+  padding: 10px 20px !important;
+  font-weight: 600 !important;
+}
+
+.town-add-btn:hover {
+  background: #0f766e !important;
+}
+
+.town-search {
+  width: 300px;
+  margin-bottom: 20px !important;
+}
+
+.town-search .MuiOutlinedInput-root {
+  border-radius: 8px;
+  background: #f0fdfa;
+}
+
+.town-table .MuiTableHead-root {
+  background: #ccfbf1;
+}
+
+.town-table .MuiTableCell-head {
+  color: #0f766e;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.town-table .MuiTableCell-body {
+  color: #334155;
+  font-size: 13px;
+  padding: 15px;
+}
+
+.town-table .MuiTableRow-root:hover {
+  background: #f0fdfa;
+}
+
+.town-dialog .MuiDialog-paper {
+  border-radius: 14px;
+  padding: 8px;
+}
+
+.town-dialog .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .town-page {
+    padding: 12px;
+  }
+
+  .town-title {
+    font-size: 22px;
+  }
+
+  .town-search {
+    width: 100%;
+  }
+
+  .town-card {
+    padding: 15px;
+  }
+}

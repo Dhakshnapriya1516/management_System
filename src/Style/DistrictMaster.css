@@ -1,0 +1,108 @@
+/* District Master Page */
+
+.district-page {
+  min-height: 100vh;
+  padding: 25px;
+  background: #fff7ed;
+  font-family: "Roboto", sans-serif;
+}
+
+.district-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.district-title {
+  color: #9a3412;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.district-subtitle {
+  color: #78716c;
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+.district-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  border: 1px solid #fed7aa;
+  box-shadow: 0 4px 15px rgba(234, 88, 12, 0.06);
+}
+
+.district-add-btn {
+  background: #ea580c !important;
+  color: white !important;
+  text-transform: none !important;
+  border-radius: 8px !important;
+  padding: 10px 20px !important;
+  font-weight: 600 !important;
+}
+
+.district-add-btn:hover {
+  background: #c2410c !important;
+}
+
+.district-search {
+  width: 300px;
+  margin-bottom: 20px !important;
+}
+
+.district-search .MuiOutlinedInput-root {
+  border-radius: 8px;
+  background: #fff7ed;
+}
+
+.district-table .MuiTableHead-root {
+  background: #ffedd5;
+}
+
+.district-table .MuiTableCell-head {
+  color: #c2410c;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.district-table .MuiTableCell-body {
+  color: #44403c;
+  font-size: 13px;
+  padding: 15px;
+}
+
+.district-table .MuiTableRow-root:hover {
+  background: #fff7ed;
+}
+
+.district-dialog .MuiDialog-paper {
+  border-radius: 14px;
+  padding: 8px;
+}
+
+.district-dialog .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .district-page {
+    padding: 12px;
+  }
+
+  .district-title {
+    font-size: 22px;
+  }
+
+  .district-search {
+    width: 100%;
+  }
+
+  .district-card {
+    padding: 15px;
+  }
+}

@@ -1,0 +1,108 @@
+/* Users Master Page */
+
+.users-page {
+  min-height: 100vh;
+  padding: 25px;
+  background: #eff6ff;
+  font-family: "Roboto", sans-serif;
+}
+
+.users-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.users-title {
+  color: #1e3a8a;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.users-subtitle {
+  color: #64748b;
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+.users-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  border: 1px solid #dbeafe;
+  box-shadow: 0 4px 15px rgba(30, 64, 175, 0.06);
+}
+
+.users-add-btn {
+  background: #2563eb !important;
+  color: white !important;
+  text-transform: none !important;
+  border-radius: 8px !important;
+  padding: 10px 20px !important;
+  font-weight: 600 !important;
+}
+
+.users-add-btn:hover {
+  background: #1d4ed8 !important;
+}
+
+.users-search {
+  width: 300px;
+  margin-bottom: 20px !important;
+}
+
+.users-search .MuiOutlinedInput-root {
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.users-table .MuiTableHead-root {
+  background: #dbeafe;
+}
+
+.users-table .MuiTableCell-head {
+  color: #1e40af;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.users-table .MuiTableCell-body {
+  color: #334155;
+  font-size: 13px;
+  padding: 15px;
+}
+
+.users-table .MuiTableRow-root:hover {
+  background: #eff6ff;
+}
+
+.users-dialog .MuiDialog-paper {
+  border-radius: 14px;
+  padding: 8px;
+}
+
+.users-dialog .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .users-page {
+    padding: 12px;
+  }
+
+  .users-title {
+    font-size: 22px;
+  }
+
+  .users-search {
+    width: 100%;
+  }
+
+  .users-card {
+    padding: 15px;
+  }
+}

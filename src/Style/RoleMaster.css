@@ -1,0 +1,108 @@
+/* Role Master Page */
+
+.role-page {
+  min-height: 100vh;
+  padding: 25px;
+  background: #f5f3ff;
+  font-family: "Roboto", sans-serif;
+}
+
+.role-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.role-title {
+  color: #581c87;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.role-subtitle {
+  color: #7c6b91;
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+.role-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  border: 1px solid #e9d5ff;
+  box-shadow: 0 4px 15px rgba(126, 34, 206, 0.06);
+}
+
+.role-add-btn {
+  background: #7c3aed !important;
+  color: white !important;
+  text-transform: none !important;
+  border-radius: 8px !important;
+  padding: 10px 20px !important;
+  font-weight: 600 !important;
+}
+
+.role-add-btn:hover {
+  background: #6d28d9 !important;
+}
+
+.role-search {
+  width: 300px;
+  margin-bottom: 20px !important;
+}
+
+.role-search .MuiOutlinedInput-root {
+  border-radius: 8px;
+  background: #faf5ff;
+}
+
+.role-table .MuiTableHead-root {
+  background: #f3e8ff;
+}
+
+.role-table .MuiTableCell-head {
+  color: #6b21a8;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.role-table .MuiTableCell-body {
+  color: #44345b;
+  font-size: 13px;
+  padding: 15px;
+}
+
+.role-table .MuiTableRow-root:hover {
+  background: #faf5ff;
+}
+
+.role-dialog .MuiDialog-paper {
+  border-radius: 14px;
+  padding: 8px;
+}
+
+.role-dialog .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .role-page {
+    padding: 12px;
+  }
+
+  .role-title {
+    font-size: 22px;
+  }
+
+  .role-search {
+    width: 100%;
+  }
+
+  .role-card {
+    padding: 15px;
+  }
+}
